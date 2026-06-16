@@ -1,4 +1,4 @@
-# Kanban Todo API
+# TODO API
 
 Uma API RESTful para gerenciar quadros Kanban com colunas e tarefas.
 
@@ -66,7 +66,7 @@ Para rodar os testes:
 ./mvnw test
 ```
 
-## ✨ Regras de Negócio Importantes Implementadas
+## ✨ Regras de Negócio
 
 - **Posicionamento Automático:** Inserir uma coluna/tarefa numa posição específica (ex: Posição 0) empurra todas as entidades subsequentes para frente atomicamente.
 - **Transição entre Colunas (Drag & Drop simulado):** Tarefas podem ser movidas dinamicamente entre colunas mantendo a consistência de posições tanto na coluna de origem quanto na de destino.
